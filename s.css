@@ -1,0 +1,51 @@
+*
+{
+    background-color:aliceblue;
+    font-family:cursive;
+}
+.ms 
+{ 
+    width: 350px; 
+    height: 500px; 
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translateX(-50%) translateY(-50%); 
+}
+
+h1
+{
+
+     position: absolute; 
+     left: 50%; 
+     top: -60px; 
+     width: 300px; 
+     transform: translateX(-50%); 
+     font-size: 18px; 
+     text-align: center; 
+     padding: 10px; 
+} 
+input, select 
+{ 
+    border:none ;
+    width: 80%; 
+    padding: 10px; 
+    border-bottom: 1px solid #0074d9; 
+   
+} 
+select
+{
+    width: 86%; 
+    border: none;
+    border-bottom: 1px solid #0074d9; 
+}
+button
+{
+    width: 85px; 
+    height: 30px; 
+    position: absolute; 
+    left: 30%; 
+    top: 60%; 
+    font-size: 18px;
+    border-color: blue;
+}
